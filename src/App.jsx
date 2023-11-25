@@ -24,7 +24,7 @@ import {
   randomId,
   randomArrayItem,
 } from '@mui/x-data-grid-generator';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import ChecklistRtlIcon from '@mui/icons-material/ChecklistRtl';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import Container from '@mui/material/Container';
@@ -304,7 +304,7 @@ export default function FullFeaturedCrudGrid() {
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
+            <ChecklistRtlIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
             TODO List
